@@ -18,7 +18,6 @@ Since key feature of the code is being able to search based on genre; fiction, n
 - "reference(book name)."
 
 These are just the facts which tell the database which books are fiction, non-fiction or reference books which will be later related to author's name based on previously stated facts (author's name and their book title).
-
 In order to make it successful library database, Publisher names are also included under format : "publisherOf(Book Publisher, Book name)." These are facts which can be known and fed into code easily at time of organizing a library.
 Thus Author's name, Book title, Book category and Publisher can be now easily related to each other using some rules and predicates.
 
