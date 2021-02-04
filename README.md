@@ -36,3 +36,7 @@ Format is : "pubAuthors(Publisher name, Author's name)".
 It is also very important feature of library database to search using publishers because often times user only know information about Publisher so it make it user-friendly searching where user doesn't need to know much even single piece of information would suffice and Algorithm will do the rest.
 
 Important point to notice here is that when user only knows one field either Publisher or Author and uses the field "pubAuthors" other parament (first letter must be capital) becomes the variable and code displays output using that variable.
+
+# Conclusion :
+The Prolog Code was fed with some easily known facts and it used them to relate them altogether. User can easily find any other information by knowing merely single fact which user usually knows like title or author or even publisher. 
+The Library Database Project is user-friendly and does some intelligent searching which doesn't require the user to know every single detail, rather it helps him by providing all the relevant information.
