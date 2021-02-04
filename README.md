@@ -23,9 +23,10 @@ Thus Author's name, Book title, Book category and Publisher can be now easily re
 
 # Predicates :
 These are the conditons in the code which check whether author writes fiction, non-fiction or reference books their respective format is :
-"fAuthors(Author's name)."
-"nfAuthors(Author's name)."
-"refAuthors(Author's name)."
+- "fAuthors(Author's name)."
+- "nfAuthors(Author's name)."
+- "refAuthors(Author's name)."
+
 fAuthors, nfAuthors and refAuthors respond by true or false which thus tell the user whether that particular Author writes in that specific category or not (fiction, non-fiction or reference)
 
 When any field (for example fAuthors) is queried by the user along with Author's name, code first finds all the books that relate to that category (like fiction in our example) using command "fiction(Book)." . Once system knows all the books related to that category (fiction) it further matches every Book name with the Author's name given in query using command "authorOf(Author's name, Book name).". If among list of books of that particular category, any book matches with the Auhor's name, it gives true that yes! this genre book is written by this specified Author.
